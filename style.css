@@ -3,6 +3,8 @@ img{
     max-height: 250px;
 }
 
+
+
 .group img{
     max-width: 300px;
     max-height: 300px;
@@ -16,7 +18,7 @@ img{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 250px;
     padding-bottom: 80px;
     background-color: #152937;
     color: #f9faf8;
@@ -36,6 +38,8 @@ ul{
     gap: 100px;
     color:white;
     background-color: #152937;
+    justify-content: space-between;
+    padding: 40px 250px;
 }
 
 .middle-top-text{
@@ -55,10 +59,15 @@ ul{
 }
 
 button{
-    padding: 2px 10px;
-    max-width: 80px;
+    width: 80px;
+    height: 25px;
     background-color: #3882F6;
     color: white;
+    border-radius: 6px;
+}
+
+#bottombutton{
+    border: white 2px solid;
 }
 
 a{
@@ -70,20 +79,26 @@ a{
 .images{
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 .allimages{
     display: flex;
     justify-content: center;
+    gap: 50px
 }
 
 .group img{
     max-width: 150px;
+    border-radius: 10%;
 }
 
 .group{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+    align-items: center;
 }
 
 .randominfo{
@@ -92,7 +107,7 @@ a{
     font-weight: 900;
     color: #1f2937;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 .quotediv{
@@ -103,7 +118,7 @@ a{
 }
 
 .quote{
-    font-size: 36px;
+    font-size: 30px;
     color: #1f2937;
     
 }
@@ -113,4 +128,24 @@ a{
     color: #1f2937;
     justify-content: flex-end;
     font-weight: 900;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #3882F6;
+    margin: 40px 200px;
+    padding: 35px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.ctatext{
+    color: white;;
+}
+
+.ctatop{
+    font-weight: bold;
+    font-size: 20px;
 }
