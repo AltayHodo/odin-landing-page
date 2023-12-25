@@ -79,14 +79,16 @@
 }
 
 .box{
-  width: 150px;
-  height: 150px;
-  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
 }
 
 .box-text{
-  width: 150px;
+  width: 100px;
   text-align: center;
+  font-size: 11px;
 }
 
 .quote-container{
@@ -99,6 +101,9 @@
 .quote{
   width: 400px;
   position: relative;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: lighter;
 
 }
 
@@ -107,4 +112,49 @@
   bottom: -20px;
   right: 30px;
   font-weight: bold;
+}
+
+.cta{
+  margin: 50px 100px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882F6;
+  color: white;
+}
+
+.cta-title{
+  font-weight: bold;
+}
+
+.cta-subtext{
+  font-size: 12px;
+}
+
+.sign-up-button, 
+.sign-up-button-2{
+  color: white;
+  background-color: #3882F6;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.sign-up-button-2{
+  border: 1px solid white;
+}
+
+.footer{
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;  
+ height: 50px;
+ background-color: #1F2937;
+ color: white;
+ font-size: 12px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
